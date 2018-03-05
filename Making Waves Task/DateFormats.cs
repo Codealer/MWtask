@@ -1,5 +1,8 @@
 ﻿namespace Making_Waves_Task
 {
+    /// <summary>
+    /// Specified date formats
+    /// </summary>
     public static class DateFormats
     {
         private static string dayMonthYearFormat = "dd.MM.yyyy";
