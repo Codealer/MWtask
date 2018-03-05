@@ -42,7 +42,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DateRangeSetter.cs" />
+    <Compile Include="IDatePrinter.cs" />
+    <Compile Include="IDateRangeSetter.cs" />
+    <Compile Include="IInputHandler.cs" />
+    <Compile Include="InputHandler.cs" />
+    <Compile Include="DatePrinter.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="DateFormats.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
