@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Making_Waves_Task
 {
@@ -23,7 +19,8 @@ namespace Making_Waves_Task
             {
                 inputHandler = new InputHandler(args);
                 inputHandler.ConvertDatesToDateTime(out DateTime dt1, out DateTime dt2);
-                dateRangeSetter.SetDatesOrder(dt1, dt2);
+                DatePrinter datePrinter = new DatePrinter();
+                datePrinter.Print(dateRangeSetter.SetDatesOrder(dt1, dt2));
             }
             catch (Exception ex)
             {
@@ -33,9 +30,6 @@ namespace Making_Waves_Task
                 Console.ReadLine();
                 return;
             }
-
-            DatePrinter datePrinter = new DatePrinter();
-            datePrinter.PrintDates(dateRangeSetter.DateTime1, dateRangeSetter.DateTime2);
         }
     }
 }

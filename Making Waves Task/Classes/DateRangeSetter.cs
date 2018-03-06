@@ -5,7 +5,7 @@ namespace Making_Waves_Task
     /// <summary>
     /// Provides dates in chronological order and format
     /// </summary>
-    class DateRangeSetter : IDateRangeSetter
+    public class DateRangeSetter : IDateRangeSetter
     {
         public string DateTime1
         {
@@ -24,22 +24,22 @@ namespace Making_Waves_Task
         /// <summary>
         /// Provides dates in chronological order
         /// </summary>
-        public void SetDatesOrder(DateTime dt1, DateTime dt2)
+        public string SetDatesOrder(DateTime dt1, DateTime dt2)
         {
             if (dt1 <= dt2)
             {
-                SetDateRange(dt1, dt2);
+                return SetDateRange(dt1, dt2);
             }
             else
             {
-                SetDateRange(dt2, dt1);
+                return SetDateRange(dt2, dt1);
             }
         }
 
         /// <summary>
         /// Provides dates in specified format
         /// </summary>
-        public void SetDateRange(DateTime dt1, DateTime dt2)
+        public string SetDateRange(DateTime dt1, DateTime dt2)
         {
 
             if (dt1.Year == dt2.Year && dt1.Month == dt2.Month)
@@ -56,6 +56,8 @@ namespace Making_Waves_Task
             }
 
             DateTime2 = dt2.ToString(DateFormats.DayMonthYearFormat);
+
+            return ($"{DateTime1} - {DateTime2}");
         }
     }
 }

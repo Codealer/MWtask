@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Making_Waves_Task
+﻿namespace Making_Waves_Task
 {
     class Program
     {

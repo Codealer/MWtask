@@ -10,7 +10,7 @@ namespace Making_Waves_Task
         string DateTime2
         { get; set; }
 
-        void SetDatesOrder(DateTime dt1, DateTime dt2);
-        void SetDateRange(DateTime dt1, DateTime dt2);
+        string SetDatesOrder(DateTime dt1, DateTime dt2);
+        string SetDateRange(DateTime dt1, DateTime dt2);
     }
 }
