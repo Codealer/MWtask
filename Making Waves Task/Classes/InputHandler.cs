@@ -13,6 +13,7 @@ namespace Making_Waves_Task
 
         public InputHandler(string[] dateTimes)
         {
+            // validation by number of arguments
             if (dateTimes.Length != 2)
             {
                 throw new ArgumentException("Incorrect number of arguments: expected arguments number: 2, given arguments number: " + dateTimes.Length);
@@ -30,6 +31,7 @@ namespace Making_Waves_Task
             bool parsed1 = DateTime.TryParseExact(dateTime1, DateFormats.DayMonthYearFormat, CultureInfo.CurrentCulture, DateTimeStyles.None, out dt1);
             bool parsed2 = DateTime.TryParseExact(dateTime2, DateFormats.DayMonthYearFormat, CultureInfo.CurrentCulture, DateTimeStyles.None, out dt2);
 
+            // validation by format of date
             if (!parsed1 || !parsed2)
                 throw new ArgumentException("Incorrect arguments: expected arguments in format dd.MM.yyyy");
         }

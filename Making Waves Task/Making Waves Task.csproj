@@ -42,18 +42,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DateRangeSetter.cs" />
-    <Compile Include="IDatePrinter.cs" />
-    <Compile Include="IDateRangeSetter.cs" />
-    <Compile Include="IInputHandler.cs" />
-    <Compile Include="InputHandler.cs" />
-    <Compile Include="DatePrinter.cs" />
+    <Compile Include="Classes\DateApplication.cs" />
+    <Compile Include="Classes\DateRangeSetter.cs" />
+    <Compile Include="Interfaces\IApplication.cs" />
+    <Compile Include="Interfaces\IDatePrinter.cs" />
+    <Compile Include="Interfaces\IDateRangeSetter.cs" />
+    <Compile Include="Interfaces\IInputHandler.cs" />
+    <Compile Include="Classes\InputHandler.cs" />
+    <Compile Include="Classes\DatePrinter.cs" />
+    <Compile Include="Interfaces\IPrinter.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="DateFormats.cs" />
+    <Compile Include="Classes\DateFormats.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

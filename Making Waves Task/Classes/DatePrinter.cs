@@ -7,10 +7,15 @@ namespace Making_Waves_Task
     /// </summary>
     class DatePrinter : IDatePrinter
     {
+        public void Print(string date)
+        {
+            Console.WriteLine(date);
+            Console.ReadLine();
+        }
+
         public void PrintDates(string dt1, string dt2)
         {
-            Console.WriteLine("{0} - {1}", dt1, dt2);
-            Console.ReadLine();
+            Print($"{dt1} - {dt2}");
         }
     }
 }
