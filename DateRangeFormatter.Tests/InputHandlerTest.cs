@@ -1,8 +1,8 @@
 ﻿using System;
 using NUnit.Framework;
-using Making_Waves_Task;
+using Date_Range_Formatter;
 
-namespace MakingWavesTask.Tests
+namespace DateRangeFormatter.Tests
 {
     [TestFixture]
     public class InputHandlerTest

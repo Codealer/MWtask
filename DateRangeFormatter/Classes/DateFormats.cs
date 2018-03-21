@@ -1,4 +1,4 @@
-﻿namespace Making_Waves_Task
+﻿namespace Date_Range_Formatter
 {
     /// <summary>
     /// Specified date formats

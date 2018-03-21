@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Making_Waves_Task
+namespace Date_Range_Formatter
 {
     public interface IInputHandler
     {

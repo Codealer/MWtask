@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakingWavesTask", "Making Waves Task\MakingWavesTask.csproj", "{AAA7D9B1-687A-4E41-BECC-27DB1D8BC9C0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateRangeFormatter", "DateRangeFormatter\DateRangeFormatter.csproj", "{AAA7D9B1-687A-4E41-BECC-27DB1D8BC9C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakingWavesTask.Tests", "MakingWavesTask.Tests\MakingWavesTask.Tests.csproj", "{F56EA071-403F-4C3C-BD9A-34D4E9644FA2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateRangeFormatter.Tests", "DateRangeFormatter.Tests\DateRangeFormatter.Tests.csproj", "{F56EA071-403F-4C3C-BD9A-34D4E9644FA2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

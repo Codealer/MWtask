@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-namespace Making_Waves_Task
+namespace Date_Range_Formatter
 {
     /// <summary>
     /// Class handling input parameters and converting them
